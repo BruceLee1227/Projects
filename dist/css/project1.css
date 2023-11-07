@@ -1,0 +1,69 @@
+* {
+  position: relative;
+}
+
+body {
+  background-size: cover;
+  background-position: top;
+  background-color: #d1d1d1;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-bottom: 50px solid #27aec9;
+  border-top: 50px solid #27aec9;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.namebox {
+  width: 400px;
+  height: 230px;
+  background-color: #eee;
+  padding: 20px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 150px auto;
+}
+.namebox h2 {
+  font-size: 25px;
+  color: #285765;
+  font-weight: 800;
+}
+.namebox h2 span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.namebox h5 {
+  color: #27aec9;
+  font-weight: 700;
+}
+.namebox p {
+  font-weight: 900;
+}
+.namebox .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+}
+.namebox .circle1 {
+  border: 5px solid #27aec9;
+  top: -70px;
+  left: -50px;
+}
+.namebox .circle2 {
+  background-color: #27aec9;
+  right: 15px;
+  bottom: -50px;
+}
+.namebox .circle3 {
+  background-color: #27aec9;
+  right: -50px;
+  top: -50px;
+}
