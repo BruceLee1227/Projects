@@ -1,0 +1,30 @@
+@import "_reset";
+.resume{
+    display: flex;
+}
+.left{
+    background-color: red;
+    width: 20%;
+    &-wrapper{
+        padding: 10px;
+    }
+    &-img{
+        background-image: url("https://cdn-icons-png.flaticon.com/512/3048/3048127.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: green;
+        border: 5px solid black;
+        border-radius: 50%;
+        height: 200px;
+    }
+    &-text{
+        background-color: gray;
+    }
+    &-contract{
+        background-color: pink;
+    }
+}
+.right{
+    background-color: yellow;
+}
